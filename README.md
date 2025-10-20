@@ -30,14 +30,22 @@ CSVでの保存・読み込みにも対応しています。
 ```bash
 git clone https://github.com/kushinada9029/vender-manager.git
 cd vender-manager
+```
+
 ### ② 実行
+
+```bash
 python src/main.py
+```
 
+> 💡 Python 3.9以上推奨  
+> Tkinterは標準で入っています（特別なライブラリは不要）
 
-※Python 3.9以上推奨
-※Tkinterは標準で入っています（特別なライブラリは不要）
+---
 
-📂 フォルダ構成
+## 📂 フォルダ構成
+
+```bash
 vender-manager/
 ├── src/
 │   ├── main.py         # アプリ本体
@@ -45,20 +53,30 @@ vender-manager/
 ├── docs/
 │   └── screenshot.png  # アプリのスクリーンショット（任意）
 └── README.md           # このファイル
+```
 
-🧩 使用技術
-項目	内容
-言語	Python 3
-GUI	Tkinter
-データ保存	CSV（標準ライブラリ）
-実行環境	Windows / Mac / Linux
-💡 開発のポイント
+---
 
-TkinterでGUI構築を学びながら作成しました。
-検索や並べ替えなど、実務でよくある操作を意識しています。
-初心者でも読めるよう、コードはコメント付きで整理しました。
+## 🧩 使用技術
 
-📎 作者
+| 項目 | 内容 |
+|------|------|
+| 言語 | Python 3 |
+| GUI | Tkinter |
+| データ保存 | CSV（標準ライブラリ） |
+| 実行環境 | Windows / Mac / Linux |
 
-kushinada9029
-GitHubプロフィールはこちら
+---
+
+## 💡 開発のポイント
+
+- TkinterでGUI構築を学びながら作成しました。  
+- 検索や並べ替えなど、実務でよくある操作を意識しています。  
+- 初心者でも読めるよう、コードはコメント付きで整理しました。  
+
+---
+
+## 📎 作者
+
+**kushinada9029**  
+👉 [GitHubプロフィールはこちら](https://github.com/kushinada9029)
